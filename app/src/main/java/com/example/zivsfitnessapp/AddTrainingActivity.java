@@ -63,6 +63,7 @@ public class AddTrainingActivity extends AppCompatActivity implements View.OnCli
     private boolean isTimeCurrent(int minutes) {
         return minutes < 60;
     }
+
     @Override
     public void onClick(View view) {
         if (view == btnSave) {

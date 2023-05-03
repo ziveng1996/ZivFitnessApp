@@ -66,7 +66,6 @@ public class TrainingAdapter extends RecyclerView.Adapter<TrainingAdapter.MiniTr
         btnExit.setOnClickListener(view -> d.dismiss());
 
         d.show();
-        // todo resume from here
     }
 
     @Override
