@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "272117683252",
+    "project_id": "myfitnessapp-7a30b",
+    "storage_bucket": "myfitnessapp-7a30b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272117683252:android:1a400eb9050cc4df282661",
+        "android_client_info": {
+          "package_name": "com.example.zivsfitnessapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272117683252-euqhntkn8ipg77uukn0v70gm2hdm9c2k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zivsfitnessapp",
+            "certificate_hash": "565d6510099a06b4dccfc2f809e05fbbb05ce97f"
+          }
+        },
+        {
+          "client_id": "272117683252-oceojomuebn0gr3n5ka8p8hs6u1fqiq9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBulfc5FD_ssRUJUtC1P-AftmzHJHiz_8s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272117683252-oceojomuebn0gr3n5ka8p8hs6u1fqiq9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
