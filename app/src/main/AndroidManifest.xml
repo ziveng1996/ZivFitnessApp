@@ -6,16 +6,15 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/workout_icon"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/workout_icon"
         android:supportsRtl="true"
         android:theme="@style/Theme.ZivsFitnessApp"
         tools:targetApi="31">
         <activity
-            android:name=".MyTrainsActivity"
-            android:exported="true"
-            android:label="Training List">
+            android:name=".screens.sharedscreens.SignUpActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,10 +22,46 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".AddTrainingActivity"
-            android:exported="false"
-            android:label="Add Training">
-        </activity>
+            android:name=".screens.FindPersonalTrainerActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ZivsFitnessApp" />
+
+        <activity
+            android:name=".screens.sharedscreens.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ZivsFitnessApp" />
+
+        <activity
+            android:name=".screens.sharedscreens.CreateProfileActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".screens.FindMyLocationActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".screens.ScheduleTrainingActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".screens.sharedscreens.PendingRequestsActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".screens.sharedscreens.MembersShipActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".screens.PersonalTrainerTrainingsActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".screens.ClientTrainingsActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyD1c05B78qRvbXXr94RhnBC2zL41gY0jeo" />
     </application>
 
 </manifest>
